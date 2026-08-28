@@ -1,5 +1,5 @@
 configure:
-    cmake -S . -B build -G Ninja -DCMAKe_BUILT_TYPE=Release
+    cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
 
 build: configure
     cmake --build ./build        
